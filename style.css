@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    list-style: none;
+    text-decoration: none;
+    height: 100vh;
+    width: 100%;
+    background: url('images/background.png') ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.nav-item a{
+    font-size: 1.2rem;
+    margin-right: 10px;
+    border-bottom: 1px solid transparent;
+    transition: all .3s ease;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid darkgoldenrod;
+}
+
+.col-md-6 h1 {
+    color: darkorange;
+    font-size: 3rem;
+}
+
+.col-md-6 p {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.col-md-3 {
+    transition: all .3s ease;
+}
+
+.col-md-3:hover {
+    transform: scale(0.9);
+}
+
+.contact-btn {
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: darkgoldenrod;
+    color: white;
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+
+.section {
+    padding: 30px;
+    background-color: white;
+}
+
+.contact-btn:hover {
+    color: white;
+    padding: 20px 50px;
+}
+
+.left-section {
+    background-color: white;
+}
+
+.left-section h2 {
+    font-size: 2.5rem;
+    color: darkorange;
+}
+
+.left-section p {
+    font-size: 1.3rem;
+    color: black;
+}
+
+.rigth-section {
+    border-radius: 30px;
+    background-color: chocolate;
+}
+
+.section2 {
+    margin-top: 2rem;
+}
+
+.section2 h2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: darkorange;
+}
+
+.section-3 {
+    margin-top: 2rem;
+}
+
+.section-3 h2 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: darkorange;
+}
+
+.section-3 h3 {
+    color: darkorange;
+    font-size: 2.5rem;
+}
+
+.col-md-4 {
+    margin-bottom: 3rem;
+    transition: all .3s ease;
+}
+
+.col-md-4:hover {
+    transform: scale(0.9);
+}
